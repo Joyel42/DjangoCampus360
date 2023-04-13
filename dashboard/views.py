@@ -15,3 +15,6 @@ def login(request):
 def daily_report(request):
     return render(request,'daily_report.html')
 
+def charts(request):
+    return render(request,'charts.html')
+
