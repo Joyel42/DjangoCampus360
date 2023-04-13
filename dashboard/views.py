@@ -13,5 +13,5 @@ def login(request):
     return render(request,'login.html')
 
 def daily_report(request):
-    return render(request,'tables.html')
+    return render(request,'daily_report.html')
 

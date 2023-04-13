@@ -43,6 +43,7 @@
               </center>
             </div>
             <form action="#" method="post">
+              {% csrf_token %}
               <div class="form-group first">
                 <label for="username">Username</label>
                 <input type="text" class="form-control" id="username" required>
