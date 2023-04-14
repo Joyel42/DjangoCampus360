@@ -36,18 +36,18 @@ var myBarChart = new Chart(ctx, {
     datasets: [
       {
           label: "Present",
-          backgroundColor: "#4e73df",
-          data: [189,193,186,190,192]
+          backgroundColor: "#a7beae",
+          data: [189,193,286,190,192]
       },
       {
           label: "Late Commers",
-          backgroundColor: "#1cc88a",
-          data: [189,193,186,190,192]
+          backgroundColor: "#cbd18f",
+          data: [10,15,29,14,20]
       },
       {
           label: "Absent",
-          backgroundColor: "#c00000",
-          data: [189,193,186,190,192]
+          backgroundColor: "#b85042",
+          data: [7,5,16,6,10]
       }
   ]
   },
@@ -78,8 +78,8 @@ var myBarChart = new Chart(ctx, {
       yAxes: [{
         ticks: {
           min: 0,
-          max: 15000,
-          maxTicksLimit: 5,
+          max: 150,
+          maxTicksLimit:5,
           padding: 10,
           // Include a dollar sign in the ticks
           callback: function(value, index, values) {
