@@ -37,7 +37,7 @@ var myBarChart = new Chart(ctx, {
       {
           label: "Present",
           backgroundColor: "#a7beae",
-          data: [189,193,286,190,192]
+          data: [189,193,200,190,192]
       },
       {
           label: "Late Commers",
@@ -47,7 +47,7 @@ var myBarChart = new Chart(ctx, {
       {
           label: "Absent",
           backgroundColor: "#b85042",
-          data: [7,5,16,6,10]
+          data: [75,55,100,68,170]
       }
   ]
   },
@@ -78,8 +78,8 @@ var myBarChart = new Chart(ctx, {
       yAxes: [{
         ticks: {
           min: 0,
-          max: 150,
-          maxTicksLimit:5,
+          max: 200,
+          maxTicksLimit:10,
           padding: 10,
           // Include a dollar sign in the ticks
           callback: function(value, index, values) {
@@ -96,7 +96,7 @@ var myBarChart = new Chart(ctx, {
       }],
     },
     legend: {
-      display: false
+      position: 'bottom'
     },
     tooltips: {
       titleMarginBottom: 10,
